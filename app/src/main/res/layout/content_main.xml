@@ -23,26 +23,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ALL ON"
+        android:id="@+id/BUTTON"
         />
 
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LED1"/>
+        android:text="LED1"
+        android:id="@+id/CHECKBOX1"
+        android:onClick="onCheckboxClicked"/>
 
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LED2"/>
+        android:text="LED2"
+        android:id="@+id/CHECKBOX2"
+        android:onClick="onCheckboxClicked"/>
 
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LED3"/>
+        android:text="LED3"
+        android:id="@+id/CHECKBOX3"
+        android:onClick="onCheckboxClicked"/>
 
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LED4"/>
+        android:text="LED4"
+        android:id="@+id/CHECKBOX4"
+        android:onClick="onCheckboxClicked"/>
 
-</LinearLayoutLayout>
+</LinearLayout>
