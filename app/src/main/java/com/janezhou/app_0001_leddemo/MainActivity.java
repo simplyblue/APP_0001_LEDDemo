@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.Toast;
+import com.janezhou.hardlibrary.*;
 
 import java.util.concurrent.Callable;
 
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
+
+            HardControl hardControl = new HardControl();
+
             ledon = !ledon;
             if (ledon) {
                 button.setText("All OFF");
